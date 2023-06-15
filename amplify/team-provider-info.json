@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifytestapp-dev-104741-authRole",
+      "UnauthRoleArn": "arn:aws:iam::879338784410:role/amplify-amplifytestapp-dev-104741-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::879338784410:role/amplify-amplifytestapp-dev-104741-authRole",
+      "Region": "eu-south-1",
+      "DeploymentBucketName": "amplify-amplifytestapp-dev-104741-deployment",
+      "UnauthRoleName": "amplify-amplifytestapp-dev-104741-unauthRole",
+      "StackName": "amplify-amplifytestapp-dev-104741",
+      "StackId": "arn:aws:cloudformation:eu-south-1:879338784410:stack/amplify-amplifytestapp-dev-104741/4a6c7200-0b59-11ee-a5ac-0a4fa3989a16",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifytestapp-dev-104741-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifytestappf6ecafc5": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "amplifytestappf6ecafc5PostConfirmation": {
+          "GROUP": "physio",
+          "deploymentBucketName": "amplify-amplifytestapp-dev-104741-deployment",
+          "s3Key": "amplify-builds/amplifytestappf6ecafc5PostConfirmation-41634d59486e6a6e6f6d-build.zip"
+        }
+      }
+    }
+  }
+}
