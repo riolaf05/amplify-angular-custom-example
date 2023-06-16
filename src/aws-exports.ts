@@ -7,7 +7,13 @@ const awsmobile = {
     "aws_cognito_region": "eu-south-1",
     "aws_user_pools_id": "eu-south-1_CaRroA3tA",
     "aws_user_pools_web_client_id": "1959v7d6t5hepd7ma7g6rdlago",
-    "oauth": {},
+    "oauth": {
+        "domain": "https://amplifytestapp5ddd4ed0-5ddd4ed0-dev.auth.eu-south-1.amazoncognito.com/oauth2/token",
+        "scope": ["weaving.crud.backend/api.post"],
+        "redirectSignIn": "http://localhost:4200/login",
+        "redirectSignOut": "http://localhost:4200/login",
+        "responseType": "code"
+    },
     "aws_cognito_username_attributes": [
         "EMAIL",
         "PHONE_NUMBER"

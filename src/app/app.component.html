@@ -5,6 +5,8 @@
     let-signOut="signOut"
   >
     <h1>Welcome {{ user.username }}!</h1>
+    {{ user.signInUserSession.accessToken.payload | json }}
+    <!-- {{ user | json  }}  -->
     <button (click)="signOut()">Sign Out</button>
   </ng-template>
 </amplify-authenticator>

@@ -15,3 +15,5 @@ Frontend side:
 Also:
 
 [The Complete Guide to User Authentication with the Amplify Framework](https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh)
+
+[Authentication using the Amazon Cognito to an Angular application](https://dev.to/rodrigokamada/authentication-using-the-amazon-cognito-to-an-angular-application-ilh)
