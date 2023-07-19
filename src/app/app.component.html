@@ -1,3 +1,4 @@
+
 <amplify-authenticator [formFields]="formFields">
   <ng-template
     amplifySlot="authenticated"
@@ -6,6 +7,15 @@
   >
     <h1>Welcome {{ user.username }}!</h1>
     {{ user.signInUserSession.accessToken.payload | json }}
+
+    <app-restaurants></app-restaurants>
+
+    <!-- <div *ngFor="let restaurant of restaurants">
+      <div>{{ restaurant?.city }}</div>
+      <div>{{ restaurant?.name }}</div>
+      <div>{{ restaurant?.description }}</div>
+    </div> -->
+    
     <!-- {{ user | json  }}  -->
     <button (click)="signOut()">Sign Out</button>
   </ng-template>

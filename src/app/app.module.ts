@@ -6,16 +6,16 @@ import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { TestappComponent } from './testapp/testapp.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 @NgModule({
-  declarations: [AppComponent, TestappComponent, TestappComponent],
+  declarations: [AppComponent, RestaurantsComponent],
   imports: [
     BrowserModule,
     AmplifyAuthenticatorModule,
     /* configuring form modules */
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

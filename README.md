@@ -17,3 +17,23 @@ Also:
 [The Complete Guide to User Authentication with the Amplify Framework](https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh)
 
 [Authentication using the Amazon Cognito to an Angular application](https://dev.to/rodrigokamada/authentication-using-the-amazon-cognito-to-an-angular-application-ilh)
+
+### Commands 
+
+#### generali 
+amplify init
+amplify env pull
+amplify status
+amplify push
+
+#### Backend
+amplify add function
+amplify remove function <nome_function>
+amplify remove api <nome_api>
+
+### References
+
+https://ui.docs.amplify.aws/angular/connected-components/authenticator
+
+https://docs.amplify.aws/start/getting-started/data-model/q/integration/angular/#connect-frontend-to-api
+

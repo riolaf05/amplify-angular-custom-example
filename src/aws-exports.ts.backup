@@ -4,16 +4,23 @@
 const awsmobile = {
     "aws_project_region": "eu-south-1",
     "aws_cognito_identity_pool_id": "eu-south-1:5ae96685-bbf6-442d-a4dd-7d2e9d3db88f",
-    "aws_cognito_region": "eu-south-1",
-    "aws_user_pools_id": "eu-south-1_CaRroA3tA",
-    "aws_user_pools_web_client_id": "1959v7d6t5hepd7ma7g6rdlago",
+    "aws_cognito_region": "us-east-1",
+    "aws_user_pools_id": "us-east-1_S64yf2uDW",
+    "aws_user_pools_web_client_id": "4mgnjbdve6hpcqcfjn8qetm40f",
     "oauth": {
-        "domain": "https://amplifytestapp5ddd4ed0-5ddd4ed0-dev.auth.eu-south-1.amazoncognito.com/oauth2/token",
-        "scope": ["weaving.crud.backend/api.post"],
-        "redirectSignIn": "http://localhost:4200/login",
-        "redirectSignOut": "http://localhost:4200/login",
-        "responseType": "code"
+        "domain": "amplifytestapp5ddd4ed0-5ddd4ed0-dev.auth.eu-south-1.amazoncognito.com",
+        "scope": [
+            "phone",
+            "email",
+            "openid",
+            "profile",
+            "aws.cognito.signin.user.admin"
+        ],
+        "redirectSignIn": "http://localhost:4200/",
+        "redirectSignOut": "http://localhost:4200/",
+        "responseType": "token"
     },
+    "federationTarget": "COGNITO_USER_POOLS",
     "aws_cognito_username_attributes": [
         "EMAIL",
         "PHONE_NUMBER"
